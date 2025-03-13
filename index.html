@@ -1,66 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medieval Robotics Competition</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Medieval Robotics Competition</h1>
-        <p>Join us in an epic battle of robotics and strategy!</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#rules">Rules</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#register">Register</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <section id="about">
-        <h2>About the Competition</h2>
-        <p>University students from across Lebanon will build robots to compete in medieval-style challenges.</p>
-        <img src="images/medieval-robot.jpg" alt="Medieval Robot Battle">
-    </section>
-    
-    <section id="rules">
-        <h2>Rules</h2>
-        <p>Each robot must adhere to the medieval combat guidelines. No external interference is allowed.</p>
-    </section>
-    
-    <section id="schedule">
-        <h2>Competition Schedule</h2>
-        <p>The event will take place over two days, with qualifying rounds and a grand finale.</p>
-    </section>
-    
-    <section id="register">
-        <h2>Register Your Team</h2>
-        <form>
-            <label for="team-name">Team Name:</label>
-            <input type="text" id="team-name" name="team-name" required>
-            
-            <label for="university">University:</label>
-            <input type="text" id="university" name="university" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <button type="submit">Register</button>
-        </form>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@roboticscomp.com</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Medieval Robotics Competition. All rights reserved.</p>
-    </footer>
-</body>
+
+   <head>
+      <title>KnightBots: Medieval Robots Championship Website</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="stylesheet" href="./css/bootstrap.css" media="screen" />
+      <link rel="stylesheet" href="./css/bootstrapmin.css" />
+   </head>
+	
+   <body>
+   
+   <!-- Top Navigation Bar
+      ================================================== -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Home</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" 
+		      aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+           <div class="collapse navbar-collapse" id="navbarColor03">
+              <ul class="navbar-nav mr-auto">
+                 <!--<li class="nav-item active">
+                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                 </li>-->
+                 <li class="nav-item">
+                    <a class="nav-link" href="rules.html">Guidelines and Rules</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="dates.html">Important Dates and Schedule</a>
+                 </li>
+				 <li class="nav-item">
+                    <a class="nav-link" href="sponsors.html">Organizers and Sponsors</a>
+                 </li>
+              </ul>
+              <a class="nav-item">
+                 <a class="nav-link" href="contacts.html">Contacts</a>
+              </a>
+            </div>
+        </nav>
+
+   <!-- Page Header
+      ================================================== -->
+      <div class="page-header">
+         <div class="container">
+                  <p align="center"><br /><img src="./img/jousting.jpg" alt="Picture" height="40%" width="40%" border="0" /></p>
+                  <h1 align="center">KnightBots</h1> 
+                  <h1 align="center">Medeival Robotics Tournament</h1>
+         </div>
+      </div>
+	  
+   <!-- Contents
+      ================================================== -->
+      <div class="container">
+         <div class="bs-docs-section">
+		 
+         <!-- Intro
+            ================================================== -->
+           <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h2 class="panel-title">Hear ye! Hear ye!</h2>
+              </div>
+              <div class="panel-body">
+				 <p>Let it be known that on Friday, the eleventh of April in the year two thousand and twenty five the 
+				 IEEE RAS/IMS/CSS Joint Lebanese Chapter, the IFAC AMO Lebanon Chapter, the IEEE YP Lebanon, the AUST-IEEE 
+				 Student Branch and the Faculty of Engineering and Computer Science at the American University of Science & 
+				 Technology with great pride and joy invite all fair ladies and noble knights to shine their armor and saddle 
+				 up their robots to compete in <b>KnightBots: Medieval Robotic Championship</b>.</p>
+              </div>
+             <div class="panel-heading">
+                  <h2 class="panel-title">Date and Location</h2>
+              </div>
+              <div class="panel-body">
+				 <p>Festivities start at 9 AM till 5 PM on Friday April 11, 2025, at AUST, Ashrafieh, Beirut.</p>
+              </div>
+             <div class="panel-heading">
+                  <h2 class="panel-title">Eligibility</h2>
+              </div>
+              <div class="panel-body">
+				 <p>Teams of two to four knights or dames can be part of the challenge. All knights and dames should be enrolled 
+				 as students in a university in Lebanon during the Spring 2024-2025 semester.</p>
+              </div>
+             <div class="panel-heading">
+                  <h2 class="panel-title">Awards</h2>
+              </div>
+              <div class="panel-body">
+				 <p>Fortune (cash and prizes) and fame shall be granted to winning knights and dames in target shooting, racing, 
+				 tug of war, jousting, the battle of the castles, and one overall champion.</p>
+              </div>
+             <div class="panel-heading">
+                  <h2 class="panel-title">Registration</h2>
+              </div>
+              <div class="panel-body">
+				 <p>To register before March 21, 2025, scan the QR code or use click <a href="https://forms.gle/KLLv97unWeCDaQ1X8">here</a>. 
+				 Places are limited!</p>
+				 <p align="center"><img src="./img/qrreg.png" alt="https://forms.gle/KLLv97unWeCDaQ1X8" width="150" height="150" /></p>
+ 				 <p align="center"><iframe src="https://free.timeanddate.com/countdown/i9szzg3y/n34/cf11/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/tatTime%20left%20to%20Event%20in/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2025-04-11T09:00:00" allowtransparency="true" frameborder="0" width="301" height="58"></iframe></p>
+             </div>
+           </div>
+			
+      <!-- Social Media and Web Presence
+         ================================================== -->
+         <div class="well well-sm">
+            <!--<h4>Follow us </h4>-->
+            <p align="center">
+            <p align="center">For further information, please contact: <a href="mailto:ras.ims.css.jointchapterlb@gmail.com">ras.ims.css.jointchapterlb@gmail.com</a></p>
+         </div>
+
+   <!-- Footer
+      ================================================== -->
+	  <footer>
+         <p align="center">&copy; 2024-2025 IEEE RAS/IMS/CSS Joint Chapter Lebanon - All rights reserved</p>
+      </footer>
+
+   <!-- Scripts
+      ================================================== -->
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+   </body>
+
 </html>
+<!-- By Michel J. Owayjan -->
